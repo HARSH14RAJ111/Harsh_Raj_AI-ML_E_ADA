@@ -37,12 +37,10 @@
    ```bash
    python -m venv .venv
    .venv\Scripts\activate
-   python -m pip install --upgrade pip
 
-2. **Install Required Packages:**
+2. **Install Required Dependencies:**
    ```bash
-    pip install livekit-agents[groq,silero,turn-detector]~=1.0rc
-    pip install python-dotenv
+    pip install -r requirements.txt
 
 3. **Run ADA:**
    ```bash
